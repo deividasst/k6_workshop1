@@ -1,5 +1,7 @@
 # k6_io_demo
 You should have installed npm for running npm scripts.
+
+## k6.io
 ### 1. Install k6
 Instructions - https://k6.io/docs/getting-started/installation/
 
