@@ -8,7 +8,7 @@ Instructions - https://k6.io/docs/getting-started/installation/
 K6 Installation troubleshooter - https://k6.io/docs/getting-started/installation/troubleshooting/
 
 ## Docker
-### 2. Install Docker https://docs.docker.com/engine/install/
+### 1. Install Docker https://docs.docker.com/engine/install/
 
     Docker Desktop for Linux https://docs.docker.com/desktop/linux/install/
 
@@ -16,13 +16,13 @@ K6 Installation troubleshooter - https://k6.io/docs/getting-started/installation
 
     Docker Desktop for Windows https://docs.docker.com/desktop/windows/install/
 
-### 3. Start influxdb and grafana docker containers
+### 2. Start influxdb and grafana docker containers
     docker-compose up -d influxdb grafana
-### 4. Check running containers
+### 3. Check running containers
     docker ps
-### 5. Local grafana url: http://localhost:3000 credentials: admin/admin
-### 6. Local influxDb url: http://localhost:8086
-### 7. Script execution command
+### 4. Local grafana url: http://localhost:3000 credentials: admin/admin
+### 5. Local influxDb url: http://localhost:8086
+### 6. Script execution command
     npm run k6:script ./scripts/[path]
 
 ## Podman
